@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package protoblog;
+
+message Date {
+    int32 year = 1;
+    int32 month = 2;
+    int32 day = 3;
+}
+
+message Transactions {
+    string id = 1;
+    string sender = 2;
+    string receiver = 3;
+    Date date = 4;
+    double amount = 5;      
+}
+
+message TransactionsList{
+    repeated Transactions transactions = 1;
+}
