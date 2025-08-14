@@ -207,3 +207,6 @@ marimo/_lsp/
 __marimo__/
 
 .vscode
+
+projects/tick-replayer/BTCUSDT/raw/**
+projects/tick-replayer/.DS_Store
